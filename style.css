@@ -17,7 +17,7 @@ header{
 }
 
 nav{
-    background-color: purple;
+    background-color: black;
     border: 2px solid blueviolet;
     border-radius: 15px;
     margin: 20px;
@@ -52,8 +52,21 @@ nav{
     color: white;
 }
 
+.Languages{
+    background-color: black;
+    border: blueviolet;
+    border-radius: 15px;
+    width: 200px;
+    height: 130px;
+    text-align: left;
+    margin: 10px;
+    pad: 5px;
+    gap: 2rem;
+    color: white;
+}
+
 #skills{
-    background-color: purple;
+    background-color: black;
     border: 2px solid blueviolet;
     border-radius: 15px;
     text-align: left;
@@ -85,7 +98,7 @@ nav{
 }
 
 footer{
-    background-color: purple;
+    background-color: black;
     border: 2px solid blueviolet;
     border-radius: 15px;
     margin: 20px;
