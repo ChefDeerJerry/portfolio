@@ -153,3 +153,95 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    nav {
+        margin: 10px;
+        padding: 10px;
+
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    #Intro {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #skills {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #projects {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #contact {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    footer {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .project {
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .Languages {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 130px;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 90%;
+        max-width: 100%;
+        margin: 8px auto;
+    }
+
+    #contact textarea {
+        min-height: 120px;
+    }
+}
